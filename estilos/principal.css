@@ -1,0 +1,16 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-30 {
+    width: 28%;
+}
+
+.columna-70 {
+    width: 68%;
+}
+
+img {
+    width: 100%;
+}

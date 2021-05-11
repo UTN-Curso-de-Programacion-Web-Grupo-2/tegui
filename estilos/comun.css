@@ -1,0 +1,55 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: lightgreen;
+    height: 95px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+header ul li {
+    background: rgb(67, 48, 243);
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header ul a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: lightgoldenrodyellow;
+    text-align: center;
+    height: 30px;
+}
+
+footer p {
+    margin: 5px 0px;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
