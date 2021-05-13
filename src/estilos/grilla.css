@@ -1,0 +1,29 @@
+.fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-30 {
+    width: 28%;
+}
+
+.columna-70 {
+    width: 68%;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .columna-100-celular {
+        width: 100%;
+    }
+
+    .oculto-celular {
+        display: none;
+    }
+
+    .columna-en-celular {
+        flex-direction: column;
+    }
+
+}
+

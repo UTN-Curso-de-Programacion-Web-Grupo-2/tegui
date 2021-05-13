@@ -21,10 +21,14 @@ header ul {
 }
 
 header ul li {
-    background: rgb(67, 48, 243);
+    background: rgb(68, 48, 243);
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+}
+
+header ul li.activo {
+    background: rgb(189, 52, 52);
 }
 
 header ul a {
@@ -33,6 +37,20 @@ header ul a {
     font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+header img {
+    width: 38px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: none;
+}
+
+.titulo_seccion {
+    text-align: center;
+    text-decoration: 1px underline black;
+    display: none;
 }
 
 footer {

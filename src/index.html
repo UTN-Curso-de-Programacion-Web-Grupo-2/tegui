@@ -7,15 +7,20 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="estilos/comun.css">
         <link rel="stylesheet" type="text/css" href="estilos/principal.css">
+        <link rel="stylesheet" type="text/css" href="estilos/grilla.css">
+        <link rel="stylesheet" type="text/css" href="estilos/responsivo.css">
+        <link rel="stylesheet" href="css/all.css">
     </head>
     <body>
         <header>
             <h1>
                 Tegui
+                <i class="fab fa-android"></i>
             </h1>
+            <img src="imagenes/menu.png" alt="">
             <nav>
                 <ul>
-                   <li>
+                   <li class="activo">
                        <a href="index.html">
                            El Chef
                        </a>
@@ -44,19 +49,24 @@
             </nav>
         </header>
         <main>
-            <section>
-                <div class="columna-30">
-                    <p>Descripción de Martitegui</p>
+            <h2 class="titulo_seccion">
+                El Chef
+            </h2>
+            <section class="fila">
+                <div class="columna-30 columna-100-celular">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cum expedita perferendis quae a et, reiciendis unde voluptate odit quibusdam qui ut placeat error illum sint iste dolorum in quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus exercitationem dolorem at ab accusantium blanditiis, totam quas distinctio nihil. Qui nisi ducimus totam aliquam odit esse est quos rem?
+                    </p>
                 </div>
-                <div class="columna-70">
+                <div class="columna-70 oculto-celular">
                     <img src="imagenes/yo.jpg">
                 </div>
             </section>
-            <section>
-                <div class="columna-30">
+            <section class="fila columna-en-celular">
+                <div class="columna-30 columna-100-celular">
                     <img src="imagenes/cebollas.webp">
                 </div>
-                <div class="columna-70">
+                <div class="columna-70 columna-100-celular">
                     <p>
                         El chef que mejor agarra una tira de ajos!
                     </p>
